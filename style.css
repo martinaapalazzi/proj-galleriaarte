@@ -1,0 +1,152 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.my-header {
+    height: 75px;
+}
+
+.my-search-bar {
+    box-shadow: none;
+}
+
+/* MAIN */
+
+.my-main {
+    height: calc(100vh - 75px);
+}
+
+.my-aside {
+    background-color: rgb(15, 38, 60);
+}
+
+.my-badge-button {
+    background-color: transparent;
+    border: none;
+}
+
+.my-badge-special-button {
+    display: none;
+}
+
+.badge {
+    background-color: rgb(22, 91, 186);
+}
+
+.my-offcanvas-size {
+    width: 50%;
+}
+
+.my-cell-table {
+    width: 300px;
+}
+
+.logo-2 {
+    display: none;
+}
+
+.icon-table {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: rgb(255, 77, 0);
+}
+
+.checkbox-container {
+    border: 1px grey solid;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.child-flex>* {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.child-flex input {
+    margin-right: 8px;
+    margin-left: 10px;
+}
+
+.my-margin-bottom-checkbox {
+    border-bottom: 1px black solid;
+}
+
+
+
+
+/* MEDIA QUERY DESKTOP  <img class="logo-2" src="mobile-logo.png" alt="">*/ 
+
+@media (max-width: 992px) { 
+    button p {
+        display: none;
+    }
+
+    .logo-1 {
+        display: none;
+    }
+
+    .icons-none {
+        display: none;
+    }
+
+    .my-aside-buttons {
+        display: none;
+    }
+
+    .my-badge-button {
+        display: none;
+    }
+
+
+    .my-badge-special-button,
+    .my-badge-special-button-1 {
+        display: block;
+        border: none;
+        background-color: transparent;
+    }
+}
+    
+
+/* MEDIA QUERY TABLET */ 
+
+@media (max-width: 768px) { 
+
+    .img-md-logo {
+        display: block;
+        width: 100px;
+    }
+
+    .my-offcanvas-size {
+        width: 100%;
+    }
+
+    .my-data-inizio {
+        display: none;
+    }
+}
+
+
+/* MEDIA QUERY MOBILE */ 
+
+@media (max-width: 576px) { 
+
+    .my-roi {
+        display: none;
+    }
+}
+
+
+
+
